@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Remove Duplicates from Sorted Array.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Search in Rotated Sorted Array.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Median of Two Sorted Arrays.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Longest Consecutive Sequence.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Two Sum.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Remove Element.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Next Permutation.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Permutation Sequence.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Candy.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Valid Palindrome.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Implement strStr().playground">
+   </FileRef>
+   <FileRef
+      location = "group:Regular Expression Matching.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Word Break.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Word Break II.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Triangle.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Maximum Subarray.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Palindrome Partitioning II.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Palindrome Partitioning.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Best Time to Buy and Sell Stock III.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Scramble String.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Interleaving String.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Distinct Subsequences.playground">
+   </FileRef>
+</Workspace>
