@@ -50,10 +50,40 @@
       location = "group:Maximum Subarray.playground">
    </FileRef>
    <FileRef
-      location = "group:Palindrome Partitioning II.playground">
+      location = "group:Palindrome Partitioning.playground">
    </FileRef>
    <FileRef
-      location = "group:Palindrome Partitioning.playground">
+      location = "group:Unique Paths.playground">
+   </FileRef>
+   <FileRef
+      location = "group:N-Queens.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Combination Sum.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Combination Sum II.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Generate Parentheses.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Restore IP Addresses.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Simplify Path.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Count and Say.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Insert Interval.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Merge Intervals.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Palindrome Partitioning II.playground">
    </FileRef>
    <FileRef
       location = "group:Best Time to Buy and Sell Stock III.playground">

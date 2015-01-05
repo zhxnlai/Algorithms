@@ -22,7 +22,9 @@ func distinctSubsequence(s: String, t: String) -> Int {
     for var i=0; i<strlenS; i++ {
         for var j=0; j<strlenT; j++ {
             if s[i] == t[j] {
-                opt[i][j] = (i==0 || j==0) ? 1 : opt[i-1][j] + opt[i-1][j-1]
+                opt[i][j] = (i==0 || j==0) ? 1 :
+                    // skip     + use
+                    opt[i-1][j] + opt[i-1][j-1]
             } else {
                 opt[i][j] = (i==0 || j==0) ? 0 : opt[i-1][j]
             }
