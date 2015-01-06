@@ -83,6 +83,30 @@
       location = "group:Merge Intervals.playground">
    </FileRef>
    <FileRef
+      location = "group:Minimum Window Substring.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Reverse Integer.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Palindrome Number.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Multiply Strings.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Text Justification.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Merge Sorted Array.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Search for a Range.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Length of Last Word.playground">
+   </FileRef>
+   <FileRef
       location = "group:Palindrome Partitioning II.playground">
    </FileRef>
    <FileRef
@@ -96,5 +120,20 @@
    </FileRef>
    <FileRef
       location = "group:Distinct Subsequences.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Subsets.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Subsets II.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Permutations.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Permutations II.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Combinations.playground">
    </FileRef>
 </Workspace>

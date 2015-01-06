@@ -27,7 +27,6 @@ func validPalindrome(s: String) -> Bool {
 
             while !s[start].isAlpha() && start<end {
                 start++
-                println("start: \(start)")
             }
             while !s[end].isAlpha() && start<end  {
                 end--
