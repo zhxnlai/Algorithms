@@ -1,139 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:Remove Duplicates from Sorted Array.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Search in Rotated Sorted Array.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Median of Two Sorted Arrays.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Longest Consecutive Sequence.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Two Sum.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Remove Element.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Next Permutation.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Permutation Sequence.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Candy.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Valid Palindrome.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Implement strStr().playground">
-   </FileRef>
-   <FileRef
-      location = "group:Regular Expression Matching.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Word Break.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Word Break II.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Triangle.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Maximum Subarray.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Palindrome Partitioning.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Unique Paths.playground">
-   </FileRef>
-   <FileRef
-      location = "group:N-Queens.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Combination Sum.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Combination Sum II.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Generate Parentheses.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Restore IP Addresses.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Simplify Path.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Count and Say.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Insert Interval.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Merge Intervals.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Minimum Window Substring.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Reverse Integer.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Palindrome Number.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Multiply Strings.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Text Justification.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Merge Sorted Array.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Search for a Range.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Length of Last Word.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Palindrome Partitioning II.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Best Time to Buy and Sell Stock III.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Scramble String.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Interleaving String.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Distinct Subsequences.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Subsets.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Subsets II.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Permutations.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Permutations II.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Combinations.playground">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "Array">
+      <FileRef
+         location = "group:Remove Duplicates from Sorted Array.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Search in Rotated Sorted Array.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Median of Two Sorted Arrays.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Longest Consecutive Sequence.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Two Sum.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Remove Element.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Next Permutation.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Permutation Sequence.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Merge Sorted Array.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Candy.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Climbing Stairs.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Single Number.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Single Number II.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "String">
+      <FileRef
+         location = "group:Valid Palindrome.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Implement strStr().playground">
+      </FileRef>
+      <FileRef
+         location = "group:Regular Expression Matching.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Simplify Path.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Count and Say.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Length of Last Word.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Stack &amp; Queue">
+      <FileRef
+         location = "group:Valid Parentheses.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "DP">
+      <FileRef
+         location = "group:Word Break.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Word Break II.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Triangle.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Maximum Subarray.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Palindrome Partitioning II.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Scramble String.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Best Time to Buy and Sell Stock III.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Interleaving String.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Edit Distance.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Distinct Subsequences.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "DFS">
+      <FileRef
+         location = "group:Unique Paths.playground">
+      </FileRef>
+      <FileRef
+         location = "group:N-Queens.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Palindrome Partitioning.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Combination Sum.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Combination Sum II.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Generate Parentheses.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Restore IP Addresses.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "BFS">
+      <FileRef
+         location = "group:Word Ladder.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Word Ladder II.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Greedy">
+      <FileRef
+         location = "group:Jump Game.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Jump Game II.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Longest Substring Without Repeating Characters.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Best Time to Buy and Sell Stock.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Best Time to Buy and Sell Stock II.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Implementation">
+      <FileRef
+         location = "group:Insert Interval.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Merge Intervals.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Minimum Window Substring.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Reverse Integer.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Palindrome Number.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Multiply Strings.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Text Justification.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Search">
+      <FileRef
+         location = "group:Search for a Range.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Brute Force">
+      <FileRef
+         location = "group:Subsets.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Subsets II.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Permutations.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Permutations II.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Combinations.playground">
+      </FileRef>
+   </Group>
 </Workspace>
