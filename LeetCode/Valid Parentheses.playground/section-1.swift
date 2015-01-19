@@ -32,8 +32,12 @@ func validParentheses(s: String) -> Bool {
         if left.contains(c) {
             stack.append(c)
         } else if right.contains(c) {
-            let leftC = stack.removeLast()
-            if left.indexOf(leftC) != right.indexOf(c) {
+            if stack.count>0 {
+                let leftC = stack.removeLast()
+                if left.indexOf(leftC) != right.indexOf(c) {
+                    return false
+                }
+            } else {
                 return false
             }
         }
@@ -41,6 +45,7 @@ func validParentheses(s: String) -> Bool {
     return true
 }
 
+validParentheses("]")
 validParentheses("([)]")
 validParentheses("()[]{}")
 validParentheses("()[d(]{}")

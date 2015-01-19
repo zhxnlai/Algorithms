@@ -35,6 +35,12 @@
          location = "group:Candy.playground">
       </FileRef>
       <FileRef
+         location = "group:Plus One.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Trapping Rain Water.playground">
+      </FileRef>
+      <FileRef
          location = "group:Climbing Stairs.playground">
       </FileRef>
       <FileRef
