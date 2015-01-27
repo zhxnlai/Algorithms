@@ -4,8 +4,8 @@ import UIKit
 
 extension String {
     func contains(c: Character) -> Bool {
-        for cc in self {
-            if cc == c {
+        for char in self {
+            if char == c {
                 return true
             }
         }
@@ -13,8 +13,8 @@ extension String {
     }
     func indexOf(c: Character) -> Int {
         for i in 0..<countElements(self) {
-            let cc = Array(self)[i]
-            if cc == c {
+            let char = Array(self)[i]
+            if char == c {
                 return i
             }
         }
@@ -42,9 +42,10 @@ func validParentheses(s: String) -> Bool {
             }
         }
     }
-    return true
+    return stack.count == 0
 }
 
+validParentheses("[](")
 validParentheses("]")
 validParentheses("([)]")
 validParentheses("()[]{}")

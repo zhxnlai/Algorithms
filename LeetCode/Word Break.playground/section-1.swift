@@ -22,9 +22,6 @@ func wordBreak(s: String, dict: [String]) -> Bool {
     opt[0] = true
     for var to=1;to<=strlen;to++ {
         opt[to] = reduce((0..<to), false, { (acc, n) -> Bool in
-            if acc {
-                return true
-            }
             return acc || (opt[n] && contains(dict, s[n..<to]))
         })
     }

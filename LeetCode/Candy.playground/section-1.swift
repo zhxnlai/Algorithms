@@ -3,7 +3,7 @@
 import UIKit
 
 // not tested
-func minimunCanies(ratings: [Int]) -> Int {
+func minimunCandies(ratings: [Int]) -> Int {
     var increment = [Int]()
     
     var inc = 1

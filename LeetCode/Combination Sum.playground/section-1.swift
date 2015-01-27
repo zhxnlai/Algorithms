@@ -30,6 +30,7 @@ func helper(set: [Int], gap: Int, from: Int, inout path: [Int], inout result: [[
 
 combinationSum([7], 7)
 combinationSum([2,3,6,7], 7)
+//combinationSum([2,3,6,7], 70)
 
 /*
 func combinationSum(set: [Int], t: Int) -> [[Int]] {

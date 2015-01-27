@@ -49,6 +49,9 @@
       <FileRef
          location = "group:Single Number II.playground">
       </FileRef>
+      <FileRef
+         location = "group:FindOneNumber.playground">
+      </FileRef>
    </Group>
    <Group
       location = "container:"

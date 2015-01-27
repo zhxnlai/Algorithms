@@ -17,7 +17,7 @@ func removeElement(a:[Int], e:Int) -> [Int] {
 
         }
     }
-    return [Int](r[0...index-1])
+    return [Int](r[0..<index])
 }
 
 

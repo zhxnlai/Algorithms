@@ -7,16 +7,16 @@ func climbingStairs(n: Int) -> Int {
     // f[1] = 1
     // f[2] = 2
     // f[3] = 3
-    var prevSteps = 0
-    var steps = 1
+    var prevStep = 0
+    var step = 1
     
     for i in 2..<n {
-        var temp = steps
-        steps += prevSteps
-        prevSteps = temp
+        var temp = step
+        step += prevStep
+        prevStep = temp
     }
     
-    return steps
+    return step
 }
 
 /*
