@@ -46,6 +46,18 @@ removeDuplicates0(B)
 Follow up for ”Remove Duplicates”: What if duplicates are allowed at most twice? For example, Given sorted array A = [1,1,1,2,2,3],Your function should return length = 5, and A is now [1,1,2,2,3]
 */
 
+func removeDuplicates22(a:[Int]) -> [Int] {
+    var r = 2;
+    var a = [Int](a)
+    for var i = 2; i < a.count; i++ {
+        if (a[i] != a[r-2]) {
+            a[r] = a[i]
+            r++
+        }
+    }
+    return [Int](a[0..<r])
+}
+
 
 func removeDuplicates2(a: [Int]) -> [Int] {
     var index = 0, array = [Int](a)
@@ -63,9 +75,11 @@ func removeDuplicates2(a: [Int]) -> [Int] {
 
 var A2 = [1,1,1,2,2,3]
 removeDuplicates2(A2)
+removeDuplicates22(A2)
 
 var B2 = [1,1,1,1,2,2,2,3,3]
 removeDuplicates2(B2)
+removeDuplicates22(B2)
 
 /*
 Follow up for ”Remove Duplicates”: What if duplicates are allowed at most three times?

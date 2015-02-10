@@ -16,17 +16,17 @@ func minimumWindow(s: String, t: String) -> [String] {
 
     
     var minLen = Int.max, minString = ""
-    var lower = 0, higher = 0
+    var lower = 0, upper = 0
     
     var windows = [String]()
     
-    for higher in 0..<slen {
-        if containsAll(s[lower...higher], t) {
-            while lower<higher && containsAll(s[lower...higher], t) {
+    for upper in 0..<slen {
+        if containsAll(s[lower...upper], t) {
+            while lower<upper && containsAll(s[lower...upper], t) {
                 lower++
             }
             lower--
-            windows.append(s[lower...higher])
+            windows.append(s[lower...upper])
         }
     }
     return windows
@@ -75,7 +75,7 @@ func minimumWindow2(s: String, t: String) -> String {
         }
     }
     
-    var lower = 0, higher = 0
+    var lower = 0, upper = 0
     for lower = 0; lower<slen; lower++ {
         var c = Array(s)[lower]
         if let isInT = dictT[c] {
@@ -88,8 +88,8 @@ func minimumWindow2(s: String, t: String) -> String {
         }
     }
 
-    for higher = slen-1; higher>=0; higher-- {
-        var c = Array(s)[higher]
+    for upper = slen-1; upper>=0; upper-- {
+        var c = Array(s)[upper]
         if let isInT = dictT[c] {
             if let countInS = dictS[c] {
                 dictS[c] = countInS-1
@@ -101,8 +101,8 @@ func minimumWindow2(s: String, t: String) -> String {
     }
     
     lower
-    higher
-    return s[lower...higher]
+    upper
+    return s[lower...upper]
 }
 
 minimumWindow2("ADOBECODEBANC", "ABC")

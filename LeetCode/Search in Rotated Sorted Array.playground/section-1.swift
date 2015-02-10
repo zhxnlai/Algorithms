@@ -48,7 +48,7 @@ func search(a:[Int], t:Int) -> Int {
         } else {
             if a[mid] < t && t <= a[l-1] {
                 f = mid+1
-        } else {
+            } else {
                 l = mid
             }
         }

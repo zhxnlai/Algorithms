@@ -31,7 +31,7 @@ func helper(s: [Int], from: Int, inout path: [Int], inout result: [[Int]]) {
         
 }
 
-//subsets([1,2,2])
+subsets([1,2,2])
 subsets([1,1,2,2])
 
 /*
