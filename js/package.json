@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhixuan Lai <zhxnlai@gmail.com> (https://zhxnlai.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "should": "^4.6.5"
+  }
+}
