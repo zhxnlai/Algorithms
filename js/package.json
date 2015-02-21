@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.js"
   },
   "author": "Zhixuan Lai <zhxnlai@gmail.com> (https://zhxnlai.github.io/)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "should": "^4.6.5"
   }
