@@ -1,9 +1,6 @@
 // Playground - noun: a place where people can play
 
-import UIKit
-
-
-/*There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log(m + n)).
+/*::There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log(m + n)).
 */
 
 // O(n)

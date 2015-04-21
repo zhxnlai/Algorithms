@@ -9,7 +9,7 @@ func textJustification(s: [String],  max: Int) -> [String] {
 
 
 
-/*
+/*:
 Given an array of words and a length L, format the text such that each line has exactly L characters and is fully (left and right) justified.
 You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly L characters.
 
@@ -28,4 +28,3 @@ Corner Cases:
 • A line other than the last line might contain only one word. What should you do in this case?
 • Inthiscase,thatlineshouldbeleft
 */
-

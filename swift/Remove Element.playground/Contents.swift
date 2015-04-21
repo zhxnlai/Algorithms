@@ -2,7 +2,7 @@
 
 import UIKit
 
-/*
+/*:
 Given an array and a value, remove all instances of that value in place and return the new length. The order of elements can be changed. It doesn’t matter what you leave beyond the new length.
 */
 
@@ -24,4 +24,3 @@ func removeElement(a:[Int], e:Int) -> [Int] {
 removeElement(A, 5)
 removeElement(A, 1)
 removeElement(A, 2)
-

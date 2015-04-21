@@ -25,6 +25,6 @@ uniquePaths(2,2)
 uniquePaths(3,3)
 uniquePaths(3,7)
 
-/*
+/*:
 A robot is located at the top-left corner of a m × n grid (marked ’Start’ in the diagram below).The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked ’Finish’ in the diagram below).How many possible unique paths are there?
 */

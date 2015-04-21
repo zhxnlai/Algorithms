@@ -26,7 +26,7 @@ func helper(s: [Int], inout path: [Int], inout result: [[Int]]) {
 
 permutations([1,2,3])
 
-/*
+/*:
 Given a collection of numbers, return all possible permutations.
 For example,
 [1,2,3] have the following permutations:

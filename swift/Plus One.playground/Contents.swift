@@ -61,6 +61,6 @@ plusOne2([1,2,3])
 plusOne2([9,2,3])
 plusOne2([9,9,9])
 
-/*
+/*:
 Given a number represented as an array of digits, plus one to the number.
 */

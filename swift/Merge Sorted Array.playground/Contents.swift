@@ -21,6 +21,6 @@ mergeSort([1,2,3], [4,5])
 mergeSort([1,2], [4,5,6])
 mergeSort([4,5,6], [1,2])
 
-/*
+/*:
 Given two sorted integer arrays A and B, merge B into A as one sorted array.Note: You may assume that A has enough space to hold additional elements from B. The number of elements initialized in A and B are m and n respectively.
 */

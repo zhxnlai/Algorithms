@@ -45,7 +45,7 @@ editDistance("aa", "bbaaaa")
 editDistance("bbaaaa", "aa")
 
 
-/*
+/*:
 f[i][j] = min edit distance between start[0...i] and end[0...j]
 if start[i] == end[i] {
     f[i][j] = f[i-1][j-1]
@@ -70,11 +70,11 @@ cccd
 ...d
 
 */
-/*
+/*:
 Given two words word1 and word2, find the minimum number of steps required to convert word1 to word2. (each operation is counted as 1 step.)
 
 You have the following 3 operations permitted on a word:
 - Insert a character
 - Delete a character
 - Replace a character
-*/
+*

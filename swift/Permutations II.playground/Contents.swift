@@ -30,7 +30,7 @@ func helper(s: [Int], inout path: [Int], inout result: [[Int]]) {
 permutations([1,1,2])
 
 
-/*
+/*:
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
 For example,
